@@ -1,0 +1,114 @@
+aid: sunoco
+name: Sunoco LP
+url: https://raw.githubusercontent.com/api-evangelist/sunoco/refs/heads/main/apis.yml
+type: Index
+image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Energy
+  - Fuels
+  - Fuel Distribution
+  - Convenience Stores
+  - Midstream
+  - Pipelines
+  - Terminals
+  - Retail
+description: >-
+  Sunoco LP (NYSE: SUN) is a master limited partnership and the premier independent fuel distributor in the United States,
+  distributing over 15 billion gallons of fuel annually to approximately 11,000 Sunoco and partner-branded retail locations
+  and operating more than 160 terminals. Sunoco LP is affiliated with Energy Transfer (parent of Sunoco GP, the general partner).
+  On November 3, 2025 Sunoco closed its $9.1 billion acquisition of Parkland Corporation (announced May 5, 2025), creating
+  SunocoCorp LLC, which began trading on the NYSE under ticker "SUNC". The Parkland acquisition substantially expands
+  Sunoco's footprint into Canada and additional international markets, adding Parkland's refining, retail, and commercial
+  fuels businesses to Sunoco's North American distribution network.
+created: '2026-05-03'
+modified: '2026-05-23'
+specificationVersion: '0.20'
+apis: []
+common:
+  - type: Website
+    url: https://www.sunoco.com
+  - type: InvestorRelations
+    url: https://www.sunocolp.com
+  - type: News
+    url: https://www.sunocolp.com/news
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/sunoco
+  - type: ParentCompany
+    url: https://www.energytransfer.com
+  - type: StockTicker
+    data:
+      - name: SUN
+        description: Sunoco LP common units listed on the New York Stock Exchange.
+      - name: SUNC
+        description: SunocoCorp LLC common units, listed on NYSE following the November 3, 2025 closing of the Parkland Corporation acquisition.
+  - type: BusinessSegments
+    data:
+      - name: Fuel Distribution
+        description: Wholesale and branded distribution of motor fuels to Sunoco and partner-branded retail locations across the United States.
+      - name: Pipeline Systems
+        description: Refined products pipeline systems carrying gasoline, diesel, and other fuels.
+      - name: Terminals
+        description: Owns and operates over 160 fuel terminals storing and distributing refined products.
+      - name: Refinery
+        description: Refining operations producing motor fuels and other refined products.
+      - name: Brand and Image Solutions
+        description: Sunoco-branded site identity, signage, canopy, and image programs for partner-branded retailers.
+      - name: Commercial Fuels
+        description: Bulk and on-site fuel supply to commercial, industrial, fleet, and marine customers.
+  - type: Features
+    data:
+      - name: Sunoco Go Rewards
+        description: Customer loyalty program offering per-gallon fuel discounts and points on convenience-store purchases at participating Sunoco locations.
+      - name: Sunoco Pay
+        description: In-app mobile payment for fueling at the pump at participating Sunoco locations.
+      - name: Sunoco Race Fuels
+        description: High-performance racing fuels distributed through dealers and at trackside; Sunoco is the Official Fuel of NASCAR.
+      - name: Station Locator
+        description: Web and app locator for Sunoco-branded retail outlets, including 94-octane availability.
+      - name: Branded Distributor Program
+        description: Program enabling independent retailers to operate as Sunoco-branded sites under Brand and Image Solutions.
+  - type: UseCases
+    data:
+      - name: Retail Fuel Distribution
+        description: Wholesale supply of motor fuels to approximately 11,000 branded and partner-branded retail outlets.
+      - name: Commercial and Fleet Fueling
+        description: Bulk fuel supply to commercial fleets, construction, agriculture, marine, and industrial customers.
+      - name: Pipeline and Terminal Logistics
+        description: Midstream movement and storage of refined products through owned pipelines and a network of over 160 terminals.
+      - name: Branded Retail Operations
+        description: Image, signage, payment, and loyalty programs supporting Sunoco-branded site operators.
+      - name: Racing Fuels Supply
+        description: Production and distribution of specialty high-octane racing fuels including NASCAR.
+  - type: Integrations
+    data:
+      - name: Energy Transfer
+        description: Energy Transfer is the parent of Sunoco GP, the general partner of Sunoco LP, and an integrated midstream relationship for pipeline and terminal logistics.
+      - name: Parkland Corporation
+        description: Acquired November 3, 2025 in a $9.1 billion transaction; adds Parkland's Canadian and international retail, commercial, and refining footprint to Sunoco.
+      - name: NASCAR
+        description: Sunoco is the Official Fuel of NASCAR; supplies race fuel across the major NASCAR series.
+  - type: Acquisitions
+    data:
+      - name: Parkland Corporation
+        description: >-
+          Announced May 5, 2025 and closed November 3, 2025, Sunoco LP's acquisition of Parkland Corporation in a transaction
+          valued at $9.1 billion is the company's largest expansion to date. The deal created SunocoCorp LLC, which began
+          trading on the NYSE under ticker "SUNC". Sunoco also ran private exchange offers and consent solicitations for
+          Parkland's outstanding notes, with final results announced November 5, 2025. The acquisition extends Sunoco's
+          fuel distribution platform into Canada and additional international markets and adds Parkland's refining, retail,
+          and commercial fuels operations.
+  - type: Authentication
+    data:
+      - name: No Public API
+        description: Sunoco LP does not publish a public developer API, OpenAPI specification, SDKs, or a developer portal. The Sunoco Go Rewards and Sunoco Pay consumer experiences are powered by private internal APIs that are not exposed to third parties.
+  - type: Compliance
+    data:
+      - name: SEC Reporting
+        description: As a publicly traded MLP (NYSE: SUN) and corporate issuer (NYSE: SUNC), Sunoco files periodic and current reports with the U.S. Securities and Exchange Commission.
+      - name: PCI DSS
+        description: Payment Card Industry Data Security Standard compliance for processing card payments at the pump, in store, and in the Sunoco Pay mobile app.
+      - name: EPA and State Fuel Regulations
+        description: Compliance with U.S. Environmental Protection Agency fuel quality and emissions rules and corresponding state programs across Sunoco's distribution footprint.
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
