@@ -104,7 +104,7 @@ common:
   - type: Compliance
     data:
       - name: SEC Reporting
-        description: As a publicly traded MLP (NYSE: SUN) and corporate issuer (NYSE: SUNC), Sunoco files periodic and current reports with the U.S. Securities and Exchange Commission.
+        description: "As a publicly traded MLP (NYSE: SUN) and corporate issuer (NYSE: SUNC), Sunoco files periodic and current reports with the U.S. Securities and Exchange Commission."
       - name: PCI DSS
         description: Payment Card Industry Data Security Standard compliance for processing card payments at the pump, in store, and in the Sunoco Pay mobile app.
       - name: EPA and State Fuel Regulations
