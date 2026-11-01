@@ -64,46 +64,79 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Sunoco LP (NYSE: **SUN**) is a master limited partnership and the premier independent fuel distributor in the United States. Sunoco distributes over 15 billion gallons of fuel a year to approximately 11,000 Sunoco and partner-branded retail locations and owns and operates more than 160 terminals. Sunoco GP, the general partner of Sunoco LP, is affiliated with Energy Transfer.
+Sunoco LP (NYSE: SUN) is a master limited partnership and the premier independent fuel distributor in the United States, distributing over 15 billion gallons of fuel annually to approximately 11,000 Sunoco and partner-branded retail locations and operating more than 160 terminals. Sunoco LP is affiliated with Energy Transfer (parent of Sunoco GP, the general partner). On November 3, 2025 Sunoco closed its $9.1 billion acquisition of Parkland Corporation (announced May 5, 2025), creating SunocoCorp LLC, which began trading on the NYSE under ticker "SUNC". The Parkland acquisition substantially expands Sunoco's footprint into Canada and additional international markets, adding Parkland's refining, retail, and commercial fuels businesses to Sunoco's North American distribution network.
 
-- Website: https://www.sunoco.com
-- Investor relations: https://www.sunocolp.com
-- News: https://www.sunocolp.com/news
-- LinkedIn: https://www.linkedin.com/company/sunoco
-- Parent / affiliate: [Energy Transfer](https://www.energytransfer.com)
+**Areas:** Energy · Fuel · Fuel Distribution · Convenience Stores · Midstream · Pipelines · Terminal · Retail
 
-## Business Segments
+## Sunoco LP on APIs.io
 
-- **Fuel Distribution** — Wholesale and branded motor fuel distribution to ~11,000 retail outlets.
-- **Pipeline Systems** — Refined products pipelines.
-- **Terminals** — 160+ owned and operated fuel terminals.
-- **Refinery** — Refining operations producing motor fuels and other refined products.
-- **Brand and Image Solutions** — Sunoco brand identity, signage, canopy, and image programs for partner retailers.
-- **Commercial Fuels** — Bulk and on-site fuel supply for commercial, industrial, fleet, and marine customers.
+Everything profiled for Sunoco LP is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/sunoco/](https://apis.io/providers/sunoco/)** — or go straight to one of the APIs or properties below.
 
-## Brands and Programs
+### Published properties
 
-- Sunoco (retail fuel)
-- Sunoco Go Rewards (loyalty)
-- Sunoco Pay (in-app pay-at-the-pump)
-- Sunoco Race Fuels (Official Fuel of NASCAR)
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-## Parkland Corporation Acquisition (Closed November 3, 2025)
+#### Security (1)
 
-On **May 5, 2025**, Sunoco LP announced it would acquire **Parkland Corporation** in a transaction valued at **$9.1 billion**. The deal closed on **November 3, 2025**, creating **SunocoCorp LLC**, which began trading on the NYSE under ticker **SUNC**. As part of the financing structure, Sunoco LP ran private exchange offers and consent solicitations for Parkland's outstanding notes; final results were announced **November 5, 2025**.
+Authentication, trust centre, and vulnerability disclosure.
 
-The Parkland acquisition substantially expands Sunoco's footprint into Canada and additional international markets, adding Parkland's refining, retail, and commercial fuels operations to Sunoco's North American fuel distribution platform. It is the largest acquisition in Sunoco's history and a transformational expansion of its fuel distribution and convenience-store-adjacent operations across North America.
+- [Sunoco Domain Security](https://apis.io/security/sunoco/sunoco-domain-security/)
 
-In April 2026 Sunoco announced a 6.25% increase in its quarterly distribution alongside strong first-quarter 2026 financial and operating results.
+## Where to find this API
 
-## Public API Surface
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
-Sunoco LP does **not** publish a public developer API, OpenAPI specification, SDK, or developer portal. The Sunoco Go Rewards and Sunoco Pay consumer experiences are powered by private internal APIs that are not exposed to third parties. No `openapi/`, `capabilities/`, `json-schema/`, or related artifact directories are included in this repository because there is no public API surface backing them.
+- [Website](https://www.sunoco.com)
 
-## Files in This Repository
+## API Evangelist rating
 
-- [`apis.yml`](apis.yml) — APIs.yml index for Sunoco LP, including business segments, brands, integrations, and the Parkland Corporation acquisition.
+**Kin Score 9.0** — minimal · rubric 0.24.0 · scored 2026-10-17
 
-## Tags
+| Facet | Score |
+|---|---|
+| Discoverability | 49.1 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 11.9 |
+| Access clarity | 7.9 |
 
-`Energy` · `Fuels` · `Fuel Distribution` · `Convenience Stores` · `Midstream` · `Pipelines` · `Terminals` · `Retail`
+**Agent readiness 2.5** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 13.9** — Energy & Utilities
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/sunoco/](https://apis.io/providers/sunoco/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Sunoco LP: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/sunoco/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
